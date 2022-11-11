@@ -7,9 +7,9 @@ console.log(route.query.i)
 useHead({
   title: 'My App',
   meta: [
-    { property: 'og:title', content: route.query.t?.toString },
-    { property: 'og:description', content: route.query.d?.toString },
-    { property: 'og:image', content: route.query.i?.toString },
+    { property: 'og:title', content: route.query.t?.toString() },
+    { property: 'og:description', content: route.query.d?.toString() },
+    { property: 'og:image', content: route.query.i?.toString() },
   ],
 })
 </script>
