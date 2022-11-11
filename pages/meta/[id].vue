@@ -18,7 +18,7 @@ useHead({
   ],
   link: [
     {
-      rel: 'image_src',
+      rel: 'image',
       href: 'https://images.tkbcdn.com/1/1560/600/Upload/eventcover/2022/10/25/829FD9.jpg'
     },
   ]
